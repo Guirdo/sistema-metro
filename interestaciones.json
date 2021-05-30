@@ -1,0 +1,92 @@
+[
+  {
+    "dupla": ["Pantitlan","Zaragoza"],
+    "longitud":1320
+  },
+  {
+    "dupla": ["Zaragoza","Gomez Farias"],
+    "longitud":762
+  },
+  {
+    "dupla": ["Gomez Farias","Boulevard Puerto Aereo"],
+    "longitud":611
+  },
+  {
+    "dupla": ["Boulevard Puerto Aereo","Balbuena"],
+    "longitud":595
+  },
+  {
+    "dupla": ["Balbuena","Moctezuma"],
+    "longitud":703
+  },
+  {
+    "dupla": ["Moctezuma","San Lazaro"],
+    "longitud":478
+  },
+  {
+    "dupla": ["San Lazaro","Candelaria"],
+    "longitud":866
+  },
+  {
+    "dupla": ["Candelaria","Merced"],
+    "longitud":698
+  },
+  {
+    "dupla": ["Merced","Pino Suarez"],
+    "longitud":745
+  },
+  {
+    "dupla": ["Pino Suarez","Isabel la Catolica"],
+    "longitud":382
+  },
+  {
+    "dupla": ["Isabel la Catolica","Salto del Agua"],
+    "longitud":445
+  },
+  {
+    "dupla": ["Salto del Agua","Balderas"],
+    "longitud":458
+  },
+  {
+    "dupla": ["Balderas","Cuauhtemoc"],
+    "longitud":409
+  },
+  {
+    "dupla": ["Cuauhtemoc","Insurgentes"],
+    "longitud":793
+  },
+  {
+    "dupla": ["Insurgentes","Sevilla"],
+    "longitud":645
+  },
+  {
+    "dupla": ["Sevilla","Chapultepec"],
+    "longitud":501
+  },
+  {
+    "dupla": ["Chapultepec","Juanacatlan"],
+    "longitud":973
+  },
+  {
+    "dupla": ["Juanacatlan","Tacubaya"],
+    "longitud":1158
+  },
+  {
+    "dupla": ["Tacubaya","Observatorio"],
+    "longitud":1262
+  }
+
+  ,
+  {
+    "dupla": ["Este 1","Observatorio"],
+    "longitud":1462
+  },
+  {
+    "dupla": ["Este 2","Observatorio"],
+    "longitud":1662
+  },
+  {
+    "dupla": ["Este 3","Observatorio"],
+    "longitud":1362
+  }
+]

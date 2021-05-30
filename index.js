@@ -4,41 +4,49 @@ $(function() {
 });
 
 $('#confirmar').on('click', function() {
-  trazarRuta();
-  window.location.href = "#rutaTit";
+  $.ajax({
+    url: 'interestaciones.json',
+    type: 'GET',
+    dataType: 'json',
+    success: interestaciones => {
+      var origen = $('#estacionO option:selected').val();
+      var destino = $('#estacionD option:selected').val();
+
+      $('#ruta').text(trazarRuta(interestaciones, origen, destino));
+    }
+  });
+
+  window.location.href = '#rutaTit';
 });
 
-function trazarRuta(){
-  const xhttp = new XMLHttpRequest();
+function trazarRuta(interestaciones, origen, destino) {
+  var ruta = origen+"\n";
+  var siguiente = origen;
 
-  xhttp.open('GET', 'estaciones.json', true);
-  xhttp.send();
-  xhttp.onreadystatechange = function() {
-    if (this.status == 200) {
-      var estaciones = JSON.parse(this.responseText);
+  while (siguiente != destino) {
+    var vencidad = interestaciones.filter(e => e.dupla.find(e => e == siguiente));
 
-      
-    }
-  };
+    var distancias = vencidad.map(e => {
+      return e.longitud;
+    });
+
+    var minimo = Math.min.apply(null, distancias);
+    var aux = vencidad.filter(e => e.longitud == minimo);
+    siguiente = aux[0].dupla.filter(e => e != origen)[0];
+    console.log(siguiente,destino);
+    ruta += siguiente + '\n';
+  }
+
+  return ruta;
 }
 
-function traerDatos() {
-  const xhttp = new XMLHttpRequest();
-
-  xhttp.open('GET', 'estaciones.json', true);
-  xhttp.send();
-  xhttp.onreadystatechange = function() {
-    if (this.status == 200) {
-      var estaciones = JSON.parse(this.responseText);
-
-      var estacionO = $('#estacionO');
-      estacionO.find('option').remove();
-
-      $(estaciones).each(function(i, v) {
-        estacionO.append(
-          '<option value="' + v.nombre + '">' + v.nombre + '</option>'
-        );
-      });
-    }
-  };
-}
+/**
+ * ,
+  {
+    "nombre": "",
+    "imagen": "",
+    "descripcion": "",
+    "lineas": [],
+    "conexiones": []
+  }
+ */
