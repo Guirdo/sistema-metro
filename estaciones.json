@@ -1,16 +1,201 @@
 [
-    {
-        "nombre": "Observatorio",
-        "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/observatorio.png",
-        "descripcion":"El ícono de la estación representa un Observatorio.El origen del Instituto de Astronomía de la UNAM se remonta a 1867 cuando se funda el Observatorio Astronómico Nacional (OAN), que se inicia en la azotea del Palacio Nacional, en el centro de la Ciudad de México.Como consecuencia del crecimiento de la ciudad, este observatorio es trasladado primero al Castillo de Chapultepec en 1878 y posteriormente en el Palacio del Arzobispo de Tacubaya conocido ahora como el Observatorio de Tacubaya, inaugurado en 1908.En 1929 se expide el decreto de autonomía de la UNAM y el OAN es incorporado a la Universidad.",
-        "tipo":"TERMINAL",
-        "lineas": [1]
-    },
-    {
-        "nombre": "Tacubaya",
-        "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/tacubaya.png",
-        "descripcion":"La imagen de la estación representa la silueta de un cántaro (recipiente para agua). Tacubaya en náhuatl quiere decir “lugar donde se junta el agua”. El origen del lugar se ubica desde los chichimecas, en 450 D.C. En 1276 llegan los mexicas y permanecen en el sitio hasta 1279, cuando se regresan a Chapultepec.En sus inicios se le llama Acozcomac 'lugar donde se junta el agua'. Los mexicas la nombran Atlalcuihaya y a raíz de la fundación del ex-convento de San Diego, se le llama San José de Tacubaya. En 1861 Benito Juárez la nombra Tacubaya de los Mártires, en memoria a las víctimas del 11 de abril de 1859.Tacubaya deja de ser suburbio y se integra al proceso modernizador, pues ahí se construye el primer edificio alto de la capital del país, el conjunto Ermita, de un estilo arquitectónico vanguardista en aquella época. Después se construyeron otros edificios como el Jardín, que crearon un ambiente distinto.",
-        "tipo":"CORRESPONDENCIA",
-        "lineas": [1]
-    }
+  {
+    "nombre": "Observatorio",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/observatorio.png",
+    "descripcion": "El ícono de la estación representa un Observatorio.El origen del Instituto de Astronomía de la UNAM se remonta a 1867 cuando se funda el Observatorio Astronómico Nacional (OAN), que se inicia en la azotea del Palacio Nacional, en el centro de la Ciudad de México.Como consecuencia del crecimiento de la ciudad, este observatorio es trasladado primero al Castillo de Chapultepec en 1878 y posteriormente en el Palacio del Arzobispo de Tacubaya conocido ahora como el Observatorio de Tacubaya, inaugurado en 1908.En 1929 se expide el decreto de autonomía de la UNAM y el OAN es incorporado a la Universidad.",
+    "tipo": "TERMINAL",
+    "lineas": [
+      1
+    ],
+    "conexiones": [
+      "Tacubaya"
+    ]
+  },
+  {
+    "nombre": "Tacubaya",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/tacubaya.png",
+    "descripcion": "La imagen de la estación representa la silueta de un cántaro (recipiente para agua). Tacubaya en náhuatl quiere decir “lugar donde se junta el agua”. El origen del lugar se ubica desde los chichimecas, en 450 D.C. En 1276 llegan los mexicas y permanecen en el sitio hasta 1279, cuando se regresan a Chapultepec.En sus inicios se le llama Acozcomac 'lugar donde se junta el agua'. Los mexicas la nombran Atlalcuihaya y a raíz de la fundación del ex-convento de San Diego, se le llama San José de Tacubaya. En 1861 Benito Juárez la nombra Tacubaya de los Mártires, en memoria a las víctimas del 11 de abril de 1859.Tacubaya deja de ser suburbio y se integra al proceso modernizador, pues ahí se construye el primer edificio alto de la capital del país, el conjunto Ermita, de un estilo arquitectónico vanguardista en aquella época. Después se construyeron otros edificios como el Jardín, que crearon un ambiente distinto.",
+    "tipo": "CORRESPONDENCIA",
+    "lineas": [
+      1,
+      7,
+      9
+    ],
+    "conexiones": [
+      "Observatorio",
+      "Constituyentes",
+      "Juanacatlan",
+      "Patriotismo",
+      "San Pedro de los Pinos"
+    ]
+  },
+  {
+    "nombre": "Juanacatlan",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/juanacatlan.png",
+    "descripcion": "El ícono de la estación representa un municipio localizado al centro del estado de Jalisco, formado por 12 localidades; las principales son: la cabecera municipal de Juanacatlán, Juanacaxtle, Zapotlanejo, La Cofradía y Miraflores.Este municipio está clasificado como agropecuario e industrial y sus actividades más importantes son la siembra de maíz y sorgo, además de la pesca.Su nombre proviene del vocablo Xoconoxtle o 'Xonacatlan' que significa 'Lugar de cebollas' (de 'Xonaca', cebollas y 'Tlan', lugar).En las cercanías de esta localidad existe una especie de jícama o 'cebollita' (como es conocida comúnmente en la región). Existen otras versiones tales como «lugar de mariposas», nombre que derivaría de «Papantl», «mariposa», por el cerro mayor que domina el paisaje: «El Papantón».En 1893 se instala en el lugar la primera planta hidroeléctrica de la República Mexicana, aprovechando la célebre caída de agua de 'El Salto de Juanacatlán' hoy en día, prácticamente extinta; la región fue conocida como una de las más importantes del país.En 1896, se inicia la construcción de la fábrica de hilados y tejidos de algodón junto a la hidroeléctrica, la cual se convierte en una de las seis textileras del estado de Jalisco.",
+    "lineas": [
+      1
+    ],
+    "conexiones": [
+      "Tacubaya",
+      "Chapultepec"
+    ]
+  },
+  {
+    "nombre": "Chapultepec",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/chapultepec.png",
+    "descripcion": "La silueta de la estación representa un chapulín.Chapultepec significa en náhuatl 'cerro del chapulín'. La pronunciación se ha mantenido casi igual que en náhuatl, pues sólo cambió el acento, en español se pronuncia con acento en la última sílaba, mientras que en náhuatl lleva el acento en la penúltima sílaba.Este bosque fue considerado por los aztecas como lugar sagrado. Nezahualcóyotl, Rey de Texcoco, construyó en 1428, una mansión al pie del cerro que ayudó a enriquecer su flora con ahuehuetes y multiplicó su fauna.En 1465 Moctezuma II condujo el agua de los manantiales del bosque a la ciudad. En 1530 Carlos V resolvió que el bosque y el cerro pertenecieran a la Ciudad de México, como lugar de esparcimiento de sus habitantes. En 1620, se construyó un acueducto que transportaba el agua hasta la fuente del Salto del Agua.En el lugar donde estuvieron las construcciones aztecas, se desarrolló una finca de descanso para los Virreyes, iniciándose las obras por Matías Gálvez en 1784.En 1842, se trasladó al castillo el Colegio Militar, que fue defendido por los cadetes durante la invasión norteamericana en 1847. El Castillo quedó abandonado varios años hasta que el Presidente Miguel Miramón reinstaló en 1858, el Colegio Militar. En 1864 Maximiliano suprimió el plantel y emprendió diversas obras para convertir ela zona oriente del Castillo en su residencia.El Presidente Porfirio Díaz mejoró el edificio y restauró la parte oeste para reinstalar el Colegio y el Presidente Venustiano Carranza amplió el bosque en 1919.A partir de 1934, los Presidentes ya no ubican su residencia en el castillo, por lo que se destinó a Museo Nacional de México. Actualmente, el bosque consta de tres secciones.",
+    "lineas": [
+      1
+    ],
+    "conexiones": [
+      "Juanacatlan",
+      "Sevilla"
+    ]
+  },
+  {
+    "nombre": "Sevilla",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/sevilla.png",
+    "descripcion": "La imagen de la estación representa los arcos del acueducto de Chapultepec a Salto del Agua.El acueducto colonial de 904 arcos y tres mil 908 Km de longitud, fue construido en 1779 sobre la calzada de Belén y conducía el agua de Chapultepec a la fuente de Salto del Agua.Sevilla es una provincia de España que antiguamente formaba con otras, el Reino de Andalucía. Esta tiene especial importancia, pues en la calle de Sierpes 52, se localiza el sitio donde, en un tiempo, estuvo la prisión en la que Miguel de Cervantes escribe su famoso Don Quijote de la Mancha.Además cuenta con una de las construcciones más hermosas y de verdadero atractivo como lo es 'La Giralda', Catedral construida por los moros entre los años de 1184 y 1196.",
+    "lineas": [
+      1
+    ],
+    "conexiones": [
+      "Chapultepec",
+      "Insurgentes"
+    ]
+  },
+  {
+    "nombre": "Insurgentes",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/insurgentes.png",
+    "descripcion": "El ícono de la estación representa la campana que se usó para convocar al movimiento de Independencia de los mexicanos. La palabra insurgente significa sublevado contra la autoridad. El 16 de septiembre de 1810 el cura Miguel Hidalgo y Costilla, en Dolores Hidalgo, Guanajuato; alza la bandera de la rebelión demandando el fin del mal gobierno, pero sin desconocer el poder del rey español, Fernando VII. La Avenida de los Insurgentes es una de las más importantes arterias de la Ciudad de México y la única que atraviesa la Ciudad de norte a sur. Al norte, esta avenida se convierte en la carretera que conduce al estado de Hidalgo. Al sur, en la carretera que conduce al estado de Morelos.",
+    "lineas": [1],
+    "conexiones": ["Sevilla","Cuauhtemoc"]
+  },
+  {
+    "nombre": "Cuauhtemoc",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/cuauhtemoc.png",
+    "descripcion": "La figura de la estación es un águila, ya que Cuauhtémoc significa 'águila que cae'. Cuauhtémoc era hijo de Ahuitzottl, fue el primero que se reveló contra Moctezuma cuando contaba con 18 años. Más tarde y tras la muerte de Cuitláhuac subió al trono de México. Cuauhtémoc fue el último emperador de Tenochtitlán. Cuando sube al trono, trata de reconstruir la ciudad, la cual se vio devastada por la peste derivada de los brotes de viruela y hambruna y busca reorganizar su ejército para enfrentar los nuevos ataques del ejército español. El día uno serpiente del año tres caña del calendario azteca, Cuauhtémoc sale con algunos de sus jefes militares para solicitar ayuda a los pueblos circunvecinos para combatir. En el barrio Coyonacaxo sale una embarcación real que fue interceptada por los enemigos, capturan a Cuauhtémoc quien viajaba con su esposa la princesa Tecuichpo (copo de algodón). Una vez capturado Cuauhtémoc fue llevado ante Cortés, que fue torturado para  confesar la ubicación del oro y el 28 de febrero de 1525 lo mandan a ahorcar junto con el cacique de Tacuba.",
+    "lineas": [1],
+    "conexiones": ["Insurgentes","Balderas"]
+  },
+  {
+    "nombre": "Balderas",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/balderas.png",
+    "descripcion": "La imagen de la estación representa el cañón que se conserva en el jardín de La Ciudadela. El cañón recuerda los días de la Decena Trágica, que fue un periodo de poco más de diez días en el que un grupo se levanta en armas, contra el gobierno de Francisco I. Madero. Este episodio culmina con el asesinato del presidente Madero y el vicepresidente José María Pino Suárez, así como también la ascensión a la presidencia de Victoriano Huerta.",
+    "lineas": [1,3],
+    "conexiones": ["Cuauhtemoc","Salto del Agua","Niños Heroes","Juarez"]
+  },
+  {
+    "nombre": "Salto del Agua",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/saltodelagua.png",
+    "descripcion": "El ícono de la estación representa la fuente de Salto del Agua. El 20 de marzo de 1779, siendo Antonio de Bucareli y Ursúa el nuevo Virrey de la Nueva España, se inaugura una fuente en el lugar donde se terminaba la arquería de un acueducto que corría por todo lo que es actualmente las avenidas Arcos de Belén y Chapultepec. El nombre de Salto del Agua se debe a una cascada que se formaba al caer el agua sobre un tazón de piedra, sostenido por las estatuas de tres niños montados en delfines. En esos tiempos, la personas que vivían por la zona acudían a recoger el agua en cubetas, ollas y tinajas, entre otros. Actualmente, se conserva la fuente como joya colonial por su gran y excelente trabajo de arte; el frente muestra un gran relieve que representa las armas de la Ciudad de México, como se usaban en aquel tiempo. En este, se veía un águila con las alas abiertas y una cruz en el pecho; entre sus alas aparecían unos estandartes españoles y entre sus garras pendían macanas; del pecho del águila, un medallón que representaba las armas de la ciudad. Este escudo fue borrado después de consumada la Independencia, debido a que contenía unas hojas de nopal con la corona imperial.",
+    "lineas": [1,8],
+    "conexiones": ["Balderas","Isabel la Catolica","San Juan de Letran","Doctores"]
+  },
+  {
+    "nombre": "Isabel la Catolica",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/isabellacatolica.png",
+    "descripcion": "La imagen de la estación representa una de las carabelas de Cristóbal Colón. Isabel la Católica nace en 1451 y fallece en 1504, habiendo sido reina de Castilla desde 1474 hasta su muerte. Se casa en 1469 con Fernando. En 1479, Fernando es proclamado rey de Aragón, empezando así el reinado de los Reyes Católicos, hecho decisivo en el camino de la unidad española y uno de los más relevantes de la historia de España (término de la reconquista, descubrimiento de América, anexión de Navarra, reorganización económica, renacimiento cultural, establecimiento de la Inquisición, expulsión de los judíos, etcétera). Gracias a las gestiones de su confesor Juan Pérez, prior del Monasterio de la Rábida (provincia de Huelva), le concede ayuda económica al marino genovés, Cristóbal Colón, con la finalidad de encontrar un camino nuevo y más corto para llegar a las Indias. El viaje culmina con el descubrimiento de América, el 12 de octubre de 1492. Isabel tuvo grandes errores, siendo uno de los más notables el establecimiento de la Inquisición en España, así como la expulsión de todos los judíos. Por esos motivos el pueblo la bautiza con el apelativo de La Católica.",
+    "lineas": [1],
+    "conexiones": ["Salto del Agua","Pino Suarez"]
+  },
+  {
+    "nombre": "Pino Suarez",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/pinosuarez.png",
+    "descripcion": "El ícono de la estación representa la pirámide de Ehécatl (Dios del Viento). En la cultura azteca Ehécatl era tan venerado como Tláloc o Quetzalcóatl. La pirámide es descubierta durante las excavaciones para la construcción de la estación Pino Suárez y señala el límite sur de la gran Tenochtitlán. José María Pino Suárez, revolucionario, vicepresidente de la República, abogado, periodista, poeta y escritor, funda el diario El Peninsular, en donde escribe en contra de la tiranía que sufrían los campesinos, pugnando por su mejoría. Afiliado al partido antirreleccionista, participó en la campaña política de Francisco I. Madero; al estallar la revolución, se le nombra gobernador de Yucatán. Muere asesinado junto con el presidente Madero.",
+    "lineas": [1,2],
+    "conexiones": ["Isabel la Catolica","Zocalo","Merced","San Antonio Abad"]
+  },
+  {
+    "nombre": "Merced",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/merced.png",
+    "descripcion": "La imagen de la estación representa un huacal con manzanas. Por muchos años, el mercado de la Merced estuvo en la zona donde se levantó el convento construido a principios del siglo XVII. Ahí estuvieron los mercedarios hasta diciembre de 1860 que, debido a las Leyes de Reforma, tuvieron que abandonarlo. Dos años después, se empezó a derribar el edificio para levantar en su lugar el mercado. En 1880 se inauguró uno nuevo. En el centro del mercado se construyó una fuente para abastecerlo de agua. En 1957 se ordenó la construcción de un verdadero mercado. Se escogió una zona al oriente del antiguo mercado, pasando la Avenida Anillo de Circunvalación. El mercado está formado de dos naves. La mayor, destinada a la venta de aves, pescado, carne, frutas, legumbres y abarrotes. Frente a ésta hay a su vez, tres secciones, una para la juguetería popular y la artesanía típica; la segunda, es para la venta de flores y plantas de ornamentación; y la tercera, para el mercado de dulces. En el paso a desnivel también existen comercios y en ellos se vende cordelería, cestería y muchos artículos de artesanía como canastas, chiquihuites, tompeates, etcétera.",
+    "lineas": [1],
+    "conexiones": ["Pino Suarez","Candelaria"]
+  },
+  {
+    "nombre": "Candelaria",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/candelaria.png",
+    "descripcion": "El ícono de la estación representa un pato en el agua. El origen del lugar y su nombre, datan de los tiempos del virreinato cuando se edifica un templo que se pone bajo la advocación de la 'Purificación de la Virgen María', al que comúnmente se le conoce con el nombre de La Candelaria. El sitio elegido para construir el templo estaba casi despoblado, pero era muy fértil debido a la humedad del suelo producida por los lagos que cubrían parte de la gran Tenochtitlán, provocando que arribaran numerosos  patos. Los habitantes del barrio se aprovechan de ello para hacer negocio en la plazuela que daba frente a la iglesia de La Candelaria. Con el tiempo se formó un mercado de patos, por lo que el pueblo lo llama 'Candelaria de los Patos'. La plazuela y todo el barrio fueron demolidos, y en su lugar se levantaron nuevos edificios.",
+    "lineas": [1,4],
+    "conexiones": ["Merced","Morelos","Fray Servando","San Lazaro"]
+  },
+  {
+    "nombre": "San Lazaro",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/sanlazaro.png",
+    "descripcion": "La imagen de la estación representa la locomotora de vapor. La antigua estación del Ferrocarril Interoceánico (después llamada Ferrocarriles Nacionales) edificada en 1878, de donde salían trenes de vía angosta que cubrían la ruta México-Puebla-Veracruz y llegaban hasta el Istmo de Tehuantepec, uniendo al Golfo de México con el Océano Pacífico, desde Coatzacoalcos hasta Salina Cruz. Actualmente en toda esa zona hay varios edificios y lugares públicos: el Palacio Legislativo de San Lázaro, el Palacio del Poder Judicial de la Federación, el Deportivo y Cuartel Policiaco Venustiano Carranza, Hospital General de Balbuena (Antigua Cruz Verde), la Terminal de Autobuses de Pasajeros de Oriente (TAPO) y el Jardín Chiapas, así como una fábrica de parafina que contaba con su propia vía férrea de descarga que fue recientemente demolida.",
+    "lineas": [1,"B"],
+    "conexiones": ["Candelaria","Moctezuma","Morelos","Flores Magon"]
+  },
+  {
+    "nombre": "Moctezuma",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/moctezuma.png",
+    "descripcion": "El ícono de la estación representa el Penacho de Moctezuma II, Xocoyotzin. Moctezuma I es el quinto Rey de la dinastía de los aztecas, gobernó de 1440 a 1469. Durante su reinado castigó con mano dura toda clase de crímenes y dio a su corte un maravilloso esplendor. En 1447, la ciudad de Tenochtitlán sufrió una serie de inundaciones a causa de un terrible temporal. Moctezuma ordenó que se construyeran obras de defensa, iniciando así la construcción de un gran dique que tenía 13 km de largo por 15 de espesor, en las inmediaciones de Ecatepec. Otra de sus grandes edificaciones fue el acueducto de Chapultepec, en cuyas rocas, se esculpió su efigie. El sucesor de este rey fue su hijo Axayácatl en 1469, el cual siguió expandiendo su dominación en gran parte de Centroamérica. En 1479, toma el poder su hermano Tizoc, quien construyó diferentes templos importantes como Huitzilopochtli (dios de la guerra) y a Tláloc (dios de la lluvia). Su sucesor, Ahuízotl, inauguró los templos hechos por su hermano, recolectó más de 20 mil almas para ser sacrificadas. En 1502, toma el poder Moctezuma II quien gobernó Tenochtitlán con relativa tranquilidad, hasta el momento en que llegaron los conquistadores españoles. Su gobierno alcanzó niveles muy elevados de sofisticación en todos los ámbitos, pero el carácter temeroso y sumiso de Tlatoani, hizo que la conquista española fuera consumada a pesar de la resistencia de Cuitláhuac y Cuauhtémoc, últimos jerarcas mexicas.",
+    "lineas": [1],
+    "conexiones": ["Balbuena","San Lazaro"]
+  },
+  {
+    "nombre": "Balbuena",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/balbuena.png",
+    "descripcion": "La imagen de la estación representa las flores del jardín Balbuena. Bernardo de Balbuena, poeta español, quien nace en 1568 en Valdepeñas y fallece en 1627 en Puerto Rico, publica el poema 'Grandeza Mexicana' en 1604. Los piratas holandeses burlan las murallas del Morro y se instalan por casi 20 años en San Juan Bautista de Borinquen. Cuando las tropas españolas logran desalojarlos, en venganza incendian la ciudad y queman la valiosa biblioteca del obispo Balbuena quien nunca se repuso de la pérdida y muere al poco tiempo. En su escrito, hay una sabrosa lista de comidas, dulces y, sobre todo frutas, que el poeta posiblemente vio como salidas 'de la tierra de promisión'. Dedica su entusiasmo mayor al chicozapote. En el Caribe, lo llamaban Níspero.",
+    "lineas": [1],
+    "conexiones": ["Moctezuma","Boulevard Puerto Aereo"]
+  },
+  {
+    "nombre": "Boulevard Puerto Aereo",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/boulevard.png",
+    "descripcion": "El ícono de la estación representa el puente de conexión entre la avenida del mismo nombre y el Aeropuerto. En 1915 se acondicionaron los llanos en que se efectuaban las prácticas de vuelo de los primeros aviones en la Ciudad de México hasta transformarlos en lo que se denomina Aeródromo Nacional de Balbuena. La Secretaría de Guerra y Marina efectuó el desmonte y edifica el local para los talleres, en tanto, la Secretaría de Comunicaciones y Obras Públicas construye las pistas y el primer hangar. México contaba ya con su primer aeropuerto de tipo convencional, apropiado para la época. En 1929 las dos pistas del actual aeropuerto comienzan a dar servicio en lo que entonces se llamaba Puerto Aéreo Central de la Ciudad de México. El Aeropuerto Internacional fue inaugurado oficialmente el 19 de noviembre de 1952 con las mismas dos pistas, algunos hangares, sistemas rudimentarios de iluminación y un pequeño edificio terminal de pasajeros. En el año de 1997 la estación cambió de nombre de Aeropuerto a Boulevard Puerto Aéreo.",
+    "lineas": [1],
+    "conexiones": ["Balbuena","Gomez Farias"]
+  },
+  {
+    "nombre": "Gomez Farias",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/gomezfarias.png",
+    "descripcion": "El ícono de la estación, es un libro abierto que representa a la Constitución de 1857. Valentín Gómez Farias nace en Guadalajara, Jalisco, en 1781. Médico y político destacado que desempeñó su primer cargo público, siendo aún muy joven, al servicio de las Cortes Españolas. Participó en el Congreso Constituyente de 1824 y más tarde fue secretario de Relaciones Exteriores en el gabinete de Gómez Pedraza. Nombrado vicepresidente en 1833, asume el cargo presidencial en cinco ocasiones, hasta 1847, mismas en que Antonio López de Santa Anna se ausenta de sus deberes de Primer Mandatario. Junto con José María Luis Mora, propone importantes cambios como la igualdad entre todos los mexicanos, la libertad de expresión, la supresión de los privilegios de la Iglesia y el Ejército, la implantación de profundas reformas económicas a través de la amortización de la deuda pública, de la asistencia social a los indígenas y las clases desprotegidas. Por sus méritos en el desempeño público, es considerado precursor de la Reforma. Muere en la Ciudad de México en 1858.",
+    "lineas": [1],
+    "conexiones": ["Boulevard Puerto Aereo","Zaragoza"]
+  },
+  {
+    "nombre": "Zaragoza",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/zaragoza.png",
+    "descripcion": "El ícono de la estación representa la figura del General Ignacio Zaragoza, quien nació el 24 de marzo de 1829 en la Bahía del Espíritu Santo, Texas. En 1853 se incorporó al Ejército regular y al proclamarse el Plan de Ayutla, se levanta en armas adhiriéndose a dicho Plan. En 1855, Zaragoza le gana a las tropas de Santa Ana. Al restablecerse el gobierno constitucional de Benito Juárez, Zaragoza es nombrado Ministro de Guerra, pero se agrava la situación financiera del país y Juárez decreta una moratoria, por lo que España, Francia e Inglaterra, forman una alianza tripartita y con sus fuerzas armadas llegan al Puerto de Veracruz. Francia hizo evidentes sus propósitos de invasión, porque pretendía extender sus dominios en América. Se organizó el Ejército de Oriente que a diferencia del francés, el mexicano carece de todo, menos de valor. Se le unieron 600 indígenas, lo que sumaban 7 mil hombres para combatir no sólo a los invasores, sino también a los conservadores que se unieron a los europeos tratando de cumplir su ilusión de tener un gobierno imperial, regido por un príncipe. Al amanecer del 5 de mayo de 1862, Zaragoza les dice a sus hombres: «Nuestros enemigos son los primeros ciudadanos del mundo, pero vosotros sois los primeros hijos de México y os quieren arrebatar vuestra patria». La lucha no se decidía y el día se agotaba, por lo que Zaragoza decide enfrentarse. Es considerado “Héroe de la Libertad” y prócer de la Batalla de Puebla, recibiendo en Palacio Nacional, una medalla en nombre de la Patria. Muere de tifoidea el 8 de septiembre de 1862",
+    "lineas": [1],
+    "conexiones": ["Gomez Farias","Pantitlan"]
+  },
+  {
+    "nombre": "Pantitlan",
+    "imagen": "https://www.metro.cdmx.gob.mx/storage/app/media/lared/linea1/pantitlan.png",
+    "descripcion": "El ícono de la estación representa dos banderas como aviso de navegación que los aztecas pusieron en el lago de Texcoco. Pantitlán es un vocablo náhuatl que significa: Entre banderas. En la época de los aztecas, el sitio era parte del lago de Texcoco. En ese tiempo existía una alcantarilla en donde los remolinos llegaban con tal fuerza que se llevaban las canoas, por esa razón  se colocaron dos postes como aviso a los navegantes, las banderas.",
+    "lineas": [1,5,9,"A"],
+    "conexiones": ["Zaragoza","Puebla","Agricola Oriental","Hangares"]
+  },
+  {
+    "nombre": "",
+    "imagen": "",
+    "descripcion": "",
+    "lineas": [],
+    "conexiones": []
+  },
+  {
+    "nombre": "",
+    "imagen": "",
+    "descripcion": "",
+    "lineas": [],
+    "conexiones": []
+  },
+  {
+    "nombre": "",
+    "imagen": "",
+    "descripcion": "",
+    "lineas": [],
+    "conexiones": []
+  },
+  {
+    "nombre": "",
+    "imagen": "",
+    "descripcion": "",
+    "lineas": [],
+    "conexiones": []
+  }
 ]
